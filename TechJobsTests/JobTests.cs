@@ -34,5 +34,12 @@ namespace TechJobsTests
         //{
         //    Assert.AreEqual(testingId2.JobId, testingId1.JobId);
         //}
+        [TestMethod]
+        public void TestJobsToString()
+        {
+           Assert.IsNotNull(str1) 
+        }
+
+
     }
 }
