@@ -46,10 +46,10 @@ namespace TechJobsOO
             str1 += "------------------------------------------";
             str1 += $"ID: {JobId}";  
             str1 += $"Name: {Name}";
-            str1 += $"Employer: {EmployerName}";
-            str1 += $"Location: {EmployerLocation}";
-            str1 += $"Position Type: {JobType}";
-            str1 += $"Core Competency: {JobCoreCompetency}";
+            str1 += $"Employer: {EmployerName.Value}";
+            str1 += $"Location: {EmployerLocation.Value}";
+            str1 += $"Position Type: {JobType.Value}";
+            str1 += $"Core Competency: {JobCoreCompetency.Value}";
             str1 += "------------------------------------------";
             return str1;
         }

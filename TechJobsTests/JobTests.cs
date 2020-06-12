@@ -8,11 +8,11 @@ namespace TechJobsTests
     [TestClass]
     public class JobTests
     {
-        Job testingId1 = new Job();
-        Job testingId2 = new Job();
-        Job testConstructor = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        Job testOne = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        Job testTwo = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        readonly Job testingId1 = new Job();
+        readonly Job testingId2 = new Job();
+        readonly Job testConstructor = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        readonly Job testOne = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+        // readonly Job testTwo = new Job("Product tester", new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         [TestMethod]
         public void TestJobIDCounter1()//1 Empty
         {
@@ -37,7 +37,7 @@ namespace TechJobsTests
         [TestMethod]
         public void TestJobsToString()
         {
-           Assert.IsNotNull(str1) 
+            Assert.IsNotNull(testOne.ToString()); 
         }
 
 
