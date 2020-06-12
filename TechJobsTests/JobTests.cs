@@ -1,7 +1,9 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TechJobsOO;
 
 namespace TechJobsTests
+
 {
     [TestClass]
     public class JobTests
@@ -19,21 +21,21 @@ namespace TechJobsTests
             Assert.AreEqual(2, testingID2.JobId);
         }
 
-        [TestMethod]
-        public void TestJobConstructorSetsAllFields()
-        {
-            Job testConstructor = new Job("Product tester", "ACME", "Desert", "Quality control", "Persistence");
-            Assert.AreEqual("Product tester", testConstructor.Name);
-            Assert.AreEqual("ACME", testConstructor.EmployerName);
-            Assert.AreEqual("Desert", testConstructor.EmployerLocation);
-            Assert.AreEqual("Quality control", testConstructor.JobType);
-            Assert.AreEqual("Persistence", testConstructor.JobCoreCompetency);
-        }
-        [TestMethod]
-        public void TestJobsForEquality()
-        {
+        //[TestMethod]
+        //public void TestJobConstructorSetsAllFields()
+        //{
+        //    Job testConstructor = new Job("Product tester", "ACME", "Desert", "Quality control", "Persistence");
+        //    Assert.AreEqual("Product tester", testConstructor.Name);
+        //    Assert.AreEqual("ACME", testConstructor.EmployerName);
+        //    Assert.AreEqual("Desert", testConstructor.EmployerLocation);
+        //    Assert.AreEqual("Quality control", testConstructor.JobType);
+        //    Assert.AreEqual("Persistence", testConstructor.JobCoreCompetency);
+        //}
+        //[TestMethod]
+        //public void TestJobsForEquality()
+        //{
             
-            Assert.IsFalse
-        }
+        //    Assert.IsFalse
+        //}
     }
 }
