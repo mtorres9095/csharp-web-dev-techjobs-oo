@@ -32,7 +32,7 @@ namespace TechJobsOO
         // TODO: Generate Equals() and GetHashCode() methods.
         public override bool Equals(object obj)
         {
-            return obj is Job job && JobId == job.JobId;//Check,
+            return obj is Job job && JobId == job.JobId;
         }
 
         public override int GetHashCode()
