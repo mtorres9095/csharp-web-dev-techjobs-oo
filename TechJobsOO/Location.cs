@@ -6,6 +6,7 @@ namespace TechJobsOO
     {
         public Location(string value) : base(value)
         {
+
         }
         //public int Id { get; }
         //private static int nextId = 1;
