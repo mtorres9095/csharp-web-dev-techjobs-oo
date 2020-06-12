@@ -6,15 +6,6 @@ namespace TechJobsTests
     [TestClass]
     public class JobTests
     {
-        //[TestMethod]
-        //public void TestMethod1()
-        //{
-        //}
-        //[TestMethod]
-        //public void TestSettingJobId()
-        //{
-
-        //}
         [TestMethod]
         public void TestJobIDCounter1()//1 Empty
         {
