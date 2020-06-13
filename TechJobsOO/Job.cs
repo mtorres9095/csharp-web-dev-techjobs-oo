@@ -42,6 +42,27 @@ namespace TechJobsOO
 
         public override string ToString()
         {
+            if (Name == "")
+            {
+              Name = "Data not Available";
+            }
+            if (EmployerName.Value == "")
+            {
+               EmployerName.Value = "Data not Available";
+            }
+            if (EmployerLocation.Value == "")
+            {
+               EmployerLocation.Value = "Data not Available";
+            }
+            if (JobType.Value == "")
+            {
+              JobType.Value = "Data not Available";
+            }
+            if (JobCoreCompetency.Value == "")
+            {
+              JobCoreCompetency.Value = "Data not Available";
+            }
+
             string str1 = "";
             str1 += "------------------------------------------\n";
             str1 += $"ID: {JobId}\n";
